@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Layout from './components/Layout/Layout';
+  
 function App() {
   return (
-    <div className="App">
+    <div >
       
+      <Layout>
+      <h1>my restorent</h1>
+      </Layout>
+
+
     </div>
   );
 }
