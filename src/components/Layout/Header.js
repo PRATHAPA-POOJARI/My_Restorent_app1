@@ -1,10 +1,18 @@
 import React from 'react'
-
+import { Box, Typography,AppBar ,Toolbar } from '@mui/material'
 const Header = () => {
   return (
-    <div>
-        <h1>Nav Bar </h1>
-    </div>
+    <>
+       <Box>
+        <AppBar component={'nav'} sx={{bgcolor:"black"}}>
+          <Toolbar>
+          <Typography> My Restorent App</Typography>
+              
+          <Typography> My Restorent App</Typography>
+          </Toolbar>
+        </AppBar>
+        </Box> 
+    </>
   )
 }
 
