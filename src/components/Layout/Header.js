@@ -16,8 +16,8 @@ const Header = () => {
   // Menu drawer content
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography color="goldenrod" variant="h6" component="div" sx={{ flexGrow: 1 }}>
-        <FastfoodIcon /> My Restaurant App
+      <Typography color="goldenrod" variant="h6" component="div" sx={{ flexGrow: 1 ,my:2}}>
+         <FastfoodIcon /> My Restaurant App
       </Typography>
       <Divider/>
       <ul  className="mobile-navigation">
@@ -51,7 +51,7 @@ const Header = () => {
               <MenuIcon />
             </IconButton>
             <Typography color="goldenrod" variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              <FastfoodIcon /> My Restaurant App
+               <FastfoodIcon /> My Restaurant App
             </Typography>
             <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
               <ul className="navigation-menu">
@@ -83,6 +83,10 @@ const Header = () => {
             {drawer}
           </Drawer>
         </Box>
+        <Box sx={{p:1}}>
+        <Toolbar/>
+        </Box>
+        
       </Box>
     </>
   );
