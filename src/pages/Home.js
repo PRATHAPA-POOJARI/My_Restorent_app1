@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout/Layout'; // Corrected import path
 import { Link } from 'react-router-dom';
-import Banner from '../images/banner.jpeg';
+import Banner from '../images/banner.jpg';
 import  "../styles/HomeStyles.css";
 
 const Home = () => {
