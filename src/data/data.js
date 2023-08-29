@@ -1,44 +1,39 @@
 import Dosa from '../images/dosa.jpg';
 import Chola from '../images/chhola.jpg';
-import Idli from '../images/idli.jpg';
+
 import MasalaDosa from '../images/masala.jpg';
-import Panner from '../images/paneer.jpg';
+import Paneer from '../images/paneer.jpg';
 import Gujrati from '../images/gujrati.jpeg';
 
-export const  MenuList =[
+export const MenuList = [
     {
-        name:'Dosa',
-        description: 'A very tasty dosa can be prepared using Field marrow/Mangalore cucumber/Malabar cucumber. They are an age-old breakfast too. A well fermented rice batter makes us soft, fluffy, to-die-for dosas. These field marrow dosas have a nice, distinctive taste and smell of field marrow. These dosas are served with lots of homemade butter & a spicy coconut chutney. 😍'
-        image:Dosa,
-        price:200,
-   
+        name: 'Dosa',
+        description: 'Dosa',
+        image: Dosa,
+        price: 200,
     },
     {
-        name:'Chola',
-        description: 'A very tasty dosa can be prepared using Field marrow/Mangalore cucumber/Malabar cucumber. They are an age-old breakfast too. A well fermented rice batter makes us soft, fluffy, to-die-for dosas. These field marrow dosas have a nice, distinctive taste and smell of field marrow. These dosas are served with lots of homemade butter & a spicy coconut chutney. 😍'
-        image:Chola,
-        price:200,
-   
+        name: 'Chola',
+        description: 'abc',
+        image: Chola,
+        price: 220,
     },
     {
-        name:'Masala',
-        description: 'A very tasty dosa can be prepared using Field marrow/Mangalore cucumber/Malabar cucumber. They are an age-old breakfast too. A well fermented rice batter makes us soft, fluffy, to-die-for dosas. These field marrow dosas have a nice, distinctive taste and smell of field marrow. These dosas are served with lots of homemade butter & a spicy coconut chutney. 😍'
-        image:MasalaDosa,
-        price:200,
-   
+        name: 'Masala Dosa',
+        description: 'Crispy dosa filled with a flavorful potato masala. A popular South Indian dish loved by many.',
+        image: MasalaDosa,
+        price: 250,
     },
     {
-        name:'Paneer',
-        description: 'A very tasty dosa can be prepared using Field marrow/Mangalore cucumber/Malabar cucumber. They are an age-old breakfast too. A well fermented rice batter makes us soft, fluffy, to-die-for dosas. These field marrow dosas have a nice, distinctive taste and smell of field marrow. These dosas are served with lots of homemade butter & a spicy coconut chutney. 😍'
+        name: 'Paneer Dosa',
+        description: 'Dosa stuffed with spiced paneer (cottage cheese) filling. Served with coconut chutney and sambar.',
         image: Paneer,
-        price:200,
-   
+        price: 280,
     },
     {
-         name:'Gujrati',
-        description: 'A very tasty dosa can be prepared using Field marrow/Mangalore cucumber/Malabar cucumber. They are an age-old breakfast too. A well fermented rice batter makes us soft, fluffy, to-die-for dosas. These field marrow dosas have a nice, distinctive taste and smell of field marrow. These dosas are served with lots of homemade butter & a spicy coconut chutney. 😍'
+        name: 'Gujarati Dosa',
+        description: 'A unique twist on dosa with Gujarati flavors. A fusion of South Indian and Gujarati cuisines.',
         image: Gujrati,
-        price:200,
-   
+        price: 210,
     },
 ];
